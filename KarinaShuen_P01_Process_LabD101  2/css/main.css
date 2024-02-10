@@ -114,6 +114,14 @@ input[type=text]:hover {
   background-color: #cfdfdc;
 }
 
+li{
+  list-style: none;
+}
+
+fieldset{
+  border-color: 422E18;
+}
+
 label {
   margin-bottom: 10px;
   display: block;
