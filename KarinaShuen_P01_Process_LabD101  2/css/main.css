@@ -67,6 +67,7 @@ p {
 .nav-div a:hover {
   background-color: #f7c8ce;
   color: #fcf9f5;
+  text-decoration: underline;
 }
 
 .nav-link {
