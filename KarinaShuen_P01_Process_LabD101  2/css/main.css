@@ -168,6 +168,24 @@ label {
   margin-top: -20px;
 }
 
+.add-to-cart-button {
+  display: inline-block;
+  padding: 0.5rem;
+  color: #422e18;
+  background-color: #f5ece1;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border: 1px solid #422e18;
+  margin-top: 1rem;
+}
+
+.add-to-cart-button:hover {
+  background-color: #f7c8ce;
+  border: 1px solid #0c0906;
+  transition-duration: 0.5s;
+}
+
 .nav-payment{
   padding-top: 1rem;
 }
