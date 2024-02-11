@@ -280,11 +280,13 @@ hr{
   transition-property: background-color;
   transition-duration: 0.5s;
   border: 1px solid #422e18;
+  border-radius: 5px;
   margin-top: 1rem;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #f7c8ce;
+  background-color: #422e18;
+  color: #f5ece1;
 }
 
 
