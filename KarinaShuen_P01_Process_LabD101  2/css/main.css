@@ -55,6 +55,10 @@ p {
   text-align: center;
 }
 
+.div_payment {
+    display: inline-block;
+}
+
 .nav-div a {
   float: left;
   color: #422e18;
