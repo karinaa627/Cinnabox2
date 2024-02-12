@@ -50,7 +50,7 @@ p {
   margin: auto;
   overflow: hidden;
   overflow: hidden;
-  background-color: #f7c8ce;
+  background-color: #f5ece1;
   width: 100%;
   text-align: center;
 }
@@ -65,8 +65,7 @@ p {
 }
 
 .nav-div a:hover {
-  background-color: #f7c8ce;
-  color: #fcf9f5;
+  color: #ef9ca7;
 }
 
 .nav-link {
