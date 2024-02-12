@@ -87,7 +87,7 @@ p {
 }
 
 .text-link:hover, .text-link:focus{
-  color: #cfdfdc;
+  color: #f5ece1;
 }
 
 nav a:hover, nav a:focus {
@@ -118,7 +118,7 @@ input[type=text] {
   background-color: #fcf9f5;
 }
 input[type=text]:hover {
-  background-color: #cfdfdc;
+  background-color: #f5ece1;
 }
 
 .img_checkout {
