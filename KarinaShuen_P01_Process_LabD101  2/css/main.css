@@ -50,9 +50,13 @@ p {
   margin: auto;
   overflow: hidden;
   overflow: hidden;
-  background-color: #f7c8ce;
+  background-color: #f5ece1;
   width: 100%;
   text-align: center;
+}
+
+.div_payment {
+    display: inline-block;
 }
 
 .nav-div a {
@@ -67,6 +71,7 @@ p {
 .nav-div a:hover {
   background-color: #f7c8ce;
   color: #fcf9f5;
+  text-decoration: underline;
 }
 
 .nav-link {
@@ -112,6 +117,14 @@ input[type=text] {
 }
 input[type=text]:hover {
   background-color: #cfdfdc;
+}
+
+li{
+  list-style: none;
+}
+
+fieldset{
+  border-color: 422E18;
 }
 
 label {
