@@ -108,17 +108,38 @@ img:hover {
   transition: .5s ease;
 }
 
-/* source: https://www.w3schools.com/cssref/sel_focus.php */
-input[type=text] {
-  width: 50%;
+.input_fill{
+ width: 40%;
   margin-bottom: 20px;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #422e18;
   border-radius: 10px;
   background-color: #fcf9f5;
 }
-input[type=text]:hover {
-  background-color: #cfdfdc;
+
+.input_fill:hover{
+   width: 40%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: ##F5ECE1;
+}
+
+.input_payment{
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: #fcf9f5;
+}
+
+.input_payment:hover{
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: #F5ECE1;
 }
 
 .img_checkout {
