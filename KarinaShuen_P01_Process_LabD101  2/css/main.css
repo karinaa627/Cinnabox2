@@ -13,7 +13,7 @@ body {
   padding-bottom: 2rem;
   border-top-width: 0.2rem;
   border-top-style: solid;
-  border-top-color: #f7c8ce;
+  border-top-color: #422E18;
 }
 
 h1 {
@@ -45,6 +45,8 @@ h4 {
 p {
   margin-top: 0;
 }
+
+
 /* nav bar source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav*/
 .nav-div {
   margin: auto;
@@ -117,6 +119,12 @@ input[type=text] {
 }
 input[type=text]:hover {
   background-color: #cfdfdc;
+}
+
+.img_checkout {
+  width: 200px;
+  height: 200px;
+
 }
 
 li{
