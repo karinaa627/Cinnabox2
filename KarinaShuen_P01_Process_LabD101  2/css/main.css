@@ -69,7 +69,9 @@ p {
 }
 
 .nav-div a:hover {
-  color: #ef9ca7;
+  background-color: #f7c8ce;
+  color: #fcf9f5;
+  text-decoration: underline;
 }
 
 .nav-link {
