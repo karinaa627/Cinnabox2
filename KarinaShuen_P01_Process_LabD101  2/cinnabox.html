@@ -4,12 +4,14 @@
   <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>P01 - Style Guide Template</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/flexbox.css">
-    
+
   </head>
 
   <body>
@@ -255,28 +257,29 @@
 
         <h4>Sample code:</h4>
         <code>&lt;a target="_blank" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box" img src="img/BlindBox1.png" alt="Cinnamoroll"Cinnamoroll Blind Box - Original/h3h4>Price: $15/h4a class="button-nav" href="#"Add to cart/a &gt;</code>
-      <div class="product-grid">
-        <div class="product-item1">
+
+      <div class="product_grid">
+        <div class="product_grid_item1">
         <figure>
-          <a target="_blank" class="product-image1" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box"><img src="img/BlindBox1.png" width="200" height="200" alt="Cinnamoroll1" id="blindbox1"></a>
+          <a class="product_img" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box"><img src="img/BlindBox1.png" class="productimg"></a>
         </figure>
         <h4>Cinnamoroll Blind Box - Original</h4>
         <p>Price: $15</p>
         <a class="button-nav" href="#">Add to cart</a>
         </div>
 
-        <div class="product-item1">
+        <div class="product_grid_item2">
         <figure>
-          <a target="_blank" class="product-image2" href="https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series"><img src="img/BlindBox2.png" width="200" height="200" alt="Cinnamoroll2" id="blindbox1"></a>
+          <a target="_blank"  href="https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series"><img src="img/BlindBox2.png"  class="productimg" alt="Cinnamoroll2"> </a>
         </figure>
         <h4 class="product-title">Cinnamoroll Blind Box - Valentine</h4>
         <p class="product-price" >Price: $15</p>
         <a class="button-nav" href="#">Add to cart</a>
         </div>
 
-        <div class="product-item1">
+        <div class="product_grid_item3">
         <figure>
-          <a target="_blank" class="product-image2" href="https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html"><img src="img/BlindBox3.png" width="200" height="200" alt="Cinnamoroll3" id="blindbox1"></a>
+          <a target="_blank" class="product_img" href="https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html"><img src="img/BlindBox3.png" class="productimg"  alt="Cinnamoroll3" ></a>
         </figure>
         <h4 class="product-title">Cinnamoroll Blind Box - Party</h4>
         <p class="product-price" >Price: $15</p>
@@ -304,7 +307,7 @@
 
           <ul>
 
-          <li>
+          <li class="li_payment">
             <div class="div_payment">
               <label>
                 <input class="input_payment type" type="text" placeholder="CARD NUMBER" required>
@@ -318,7 +321,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="li_payment">
           <div class="div_payment">
           <label>
           <input class="input_payment" type="text" placeholder="MM/YY" required>
@@ -332,7 +335,7 @@
           </div>
           </li>
 
-          <li>
+          <li class="li_payment">
           <label for="save_yes_no">Save Card Details</label>
           <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
           <input type="radio">
@@ -348,7 +351,7 @@
 
           <ul>
 
-          <li>
+          <li class="li_payment">
           <div class="div_payment">
           <label>
           <input class="input_payment" type="text" placeholder="FIRST NAME" required>
@@ -362,7 +365,7 @@
           </div>
           </li>
 
-          <li>
+          <li class="li_payment">
           <div class="div_payment">
           <label>
           <input class="input_payment" type="text" placeholder="ADDRESS" required>
@@ -376,7 +379,7 @@
           </div>
           </li>
 
-          <li>
+          <li class="li_payment">
           <label>
           <input class="input_payment" type="text" placeholder="POSTAL CODE" required>
           </label>
@@ -393,7 +396,7 @@
 
           <ul>
 
-          <li>
+          <li class="li_payment">
           <div class="div_payment">
           <label>
           <input class="input_payment" type="text" placeholder="FIRST NAME" required>
@@ -407,7 +410,7 @@
           </div>
           </li>
 
-          <li>
+          <li class="li_payment">
 
           <div class="div_payment">
           <label>
@@ -422,13 +425,13 @@
           </div>
           </li>
 
-          <li>
+          <li class="li_payment">
           <label>
           <input class="input_payment" type="text" placeholder="POSTAL CODE" required>
           </label>
           </li>
 
-          <li>
+          <li class="li_payment">
           <input class="button-nav" type="Submit" class="submit" value="SUBMIT">
           </li>
 
