@@ -3,14 +3,12 @@
 
 @font-face {
     font-family: 'gelicablack';
-    src: url('../css/fonts/fontspring-demo-gelica-black.woff2') format('woff2'),
-         url('../css/fonts/fontspring-demo-gelica-black.woff') format('woff');
+    src: url('css/fonts/fontspring-demo-gelica-black.woff2') format('woff2'),
+         url('css/fonts/fontspring-demo-gelica-black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
-
 
 
 @font-face {
