@@ -2,6 +2,33 @@
 	box-sizing: border-box;
 }
 
+
+.main-nav-div {
+	width: 100%;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+	flex-direction: row;
+}
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0;
+
+}
+
+.grid-col-1of7 {
+	width: 100%;
+}
+
+body {
+	/* padding if add nav bar*/
+	padding-top: 2rem;
+}
+
 /* grid * -> direction + space*/
 
 .product_grid {
