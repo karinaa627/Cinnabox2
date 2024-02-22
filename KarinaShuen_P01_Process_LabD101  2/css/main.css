@@ -1,7 +1,4 @@
-/*
-  STYLE GUIDE STYLING
-  Default styling for the style guide
-*/
+/* STYLE GUIDE STYLING */
 body {
   background-color: #fcf9f5;
   color: #422e18;
@@ -54,7 +51,7 @@ p {
   margin: auto;
   overflow: hidden;
   overflow: hidden;
-  width: 100%;
+  min-width: 100%;
   text-align: center;
 }
 
@@ -67,7 +64,7 @@ p {
 	z-index: 10;
 
   /*entire window */
-  width: 100%;
+  min-width: 100%;
 }
 
 .main-nav-item{
@@ -80,7 +77,6 @@ p {
 
 /* nav bar for the pages/templates */
 /* nav bar source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav*/
-
 
 .nav2-div {
   margin: auto;
@@ -148,6 +144,13 @@ p {
   font-size: 17px;
 }
 
+.nav-item:active, .nav-item:hover, .nav-item:focus, .main-nav-item:active, .main-nav-item:hover, .main-nav-item:focus {
+  color: #fcf9f5;;
+  background-color: #f7c8ce;
+  text-decoration: underline;
+}
+
+/* place holder logo*/
 #nav-logo{
   flex: 2;
   order: 1;
@@ -159,14 +162,8 @@ p {
   font-size: 17px;
 }
 
-
-.nav-item:active, .nav-item:hover, .nav-item:focus, .main-nav-item:active, .main-nav-item:hover, .main-nav-item:focus {
-  color: #fcf9f5;;
-  background-color: #f7c8ce;
-  text-decoration: underline;
-}
-
-.div_payment {
+/* payment*/
+.div-payment {
     display: inline-block;
 }
 
@@ -189,7 +186,7 @@ img:hover {
   transition: .5s ease;
 }
 
-.input_fill{
+.input-fill{
  width: 40%;
   margin-bottom: 20px;
   padding: 10px;
@@ -198,7 +195,7 @@ img:hover {
   background-color: #fcf9f5;
 }
 
-.input_fill:hover{
+.input-fill:hover{
    width: 40%;
   margin-bottom: 20px;
   padding: 10px;
@@ -207,7 +204,7 @@ img:hover {
   background-color: #F5ECE1;
 }
 
-.input_payment{
+.input-payment{
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #422e18;
@@ -215,7 +212,7 @@ img:hover {
   background-color: #fcf9f5;
 }
 
-.input_payment:hover{
+.input-payment:hover{
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #422e18;
@@ -223,13 +220,13 @@ img:hover {
   background-color: #F5ECE1;
 }
 
-.img_checkout {
+.img-checkout {
   width: 200px;
   height: 200px;
 
 }
 
-.li_payment{
+.li-payment{
   list-style: none;
 }
 
