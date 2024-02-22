@@ -4,25 +4,30 @@
   <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>P01 - Style Guide Template</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/flexbox.css">
-    
+
   </head>
 
   <body>
 
     <header>
 
-    <div class="nav-div" id="home">
+    <!-- NAVIGATION AT THE TOP  -->
+    <div class="main-nav-div">
       <nav>
-        <a class="nav-link" href="#interactive_elements">❤ Interactive Elements ❤</a>
-        <a class="nav-link" href="#text_elements">❤ Text Elements ❤</a>
-        <a class="nav-link" href="#combined_elements">❤ Combined Elements ❤</a>
-        <a class="nav-link" href="#branding">❤ Branding ❤</a>
-        <a class="nav-link" href="#citations">❤ Citations ❤</a>
+        <a href="#interactive_elements" class="main-nav-item">❤ Interactive Elements ❤</a>
+        <a href="#text_elements" class="main-nav-item">❤ Text Elements ❤</a>
+        <a href="#combined_elements" class="main-nav-item">❤ Combined Elements ❤</a>
+        <a href="#about" class="main-nav-item">❤ Branding ❤</a>
+        <a href="#citations" class="main-nav-item">❤ Citations ❤</a>
+        <a href="#productlisting" class="main-nav-item">❤ Product LIsting Page ❤</a>
+        <a href="#checkoutcart" class="main-nav-item">❤ Checkout ❤</a>
       </nav>
     </div>
 
@@ -71,6 +76,7 @@
 
       </section>
 
+      <!-- Submit/Reset Button Section  -->
       <!-- source: https://www.w3schools.com/tags/tag_label.asp -->
       <section class="element">
         <h3>Submit/Reset Buttons</h3>
@@ -84,14 +90,15 @@
         <h4>Log in</h4>
           <form action="/action_page.php">
             <label for="email1" class="login-label">Email:</label>
-            <input type="text" id="email1" class="login-input" name="email"><br>
+            <input class="input-fill" type="text" id="email1" class="login-input" name="email"><br>
             <label for="password" class="login-label">Password:</label>
-            <input type="text" id="password" class="login-input" name="Password"><br>
+              <input class="input-fill" type="text" id="password" class="login-input" name="Password"><br>
             <input class="button-nav" type="submit" value="Submit">
             <input class="button-nav" type="reset" value="Reset">
           </form>
         </section>
 
+      <!--Contact Form  -->
       <section class="element" id="contact">
         <h3>Text Input Field with Label</h3>
 
@@ -103,10 +110,11 @@
 
         <h4>Contact us here!</h4>
           <form method="post" action="#">
-            <input type="text" id="form-name" placeholder="Ask a question :)">
+            <input class="input-fill" type="text" id="form-name" placeholder="Ask a question :)">
           </form>
       </section>
 
+      <!-- Radio Button  -->
       <!-- source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio -->
       <section class="element">
         <h3>Radio Button with Label</h3>
@@ -147,11 +155,7 @@
         </figure>
       </section>
 
-
     </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
 
     <!-- TEXT ELEMENTS SECTION // -->
     <section id="text_elements">
@@ -219,9 +223,6 @@
       </section>
 
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
-
-
 
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
@@ -236,17 +237,37 @@
         <h4>Sample code:</h4>
         <code>&lt;a href="#home"Home/a a href="#blind_boxes"Blind Boxes/a a href="#collections"Collections/a &gt;</code>
 
-      <div class="nav-div">
+      <div class="nav2-div">
         <nav>
-          <a class="nav-link" href="#home">❤ Home ❤</a>
-          <a class="nav-link" href="#blind_boxes">❤ Blind Boxes ❤</a>
-          <a class="nav-link" href="#about">❤ About ❤</a>
-          <a class="nav-link" href="#contact">❤ Contact ❤</a>
-          <a class="nav-link" href="#cart">❤ Cart ❤</a>
+          <div class="nav2-item">
+          <a class="nav-item1" href="#home">❤ Home ❤</a>
+          </div>
+
+          <div>
+          <a class="nav-item2" href="#blind_boxes">❤ Blind Boxes ❤</a>
+          </div>
+
+          <div>
+          <a class="nav-item3" href="#about">❤ About ❤</a>
+          </div>
+
+          <div>
+          <a class="nav-item4" href="#contact">❤ Contact ❤</a>
+          </div>
+
+          <div>
+          <a class="nav-item5" href="#cart">❤ Cart ❤</a>
+          </div>
+
+          <div>
+          <a href="#home" id="nav-logo"> insert logo </a>
+          </div>
+
         </nav>
       </div>
       </section>
 
+      <!-- PRODUCT SERVICE LISTING -->
       <section class="element" id="blind_boxes">
         <h3>Product/Service Listing</h3>
 
@@ -255,37 +276,38 @@
 
         <h4>Sample code:</h4>
         <code>&lt;a target="_blank" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box" img src="img/BlindBox1.png" alt="Cinnamoroll"Cinnamoroll Blind Box - Original/h3h4>Price: $15/h4a class="button-nav" href="#"Add to cart/a &gt;</code>
+
       <div class="product-grid">
-        <div class="product-item1">
+        <div class="product-grid-item1">
         <figure>
-          <a target="_blank" class="product-image1" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box"><img src="img/BlindBox1.png" width="200" height="200" alt="Cinnamoroll1" id="blindbox1"></a>
+          <a class="product-img" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box"><img src="img/BlindBox1.png" class="productimg"></a>
         </figure>
         <h4>Cinnamoroll Blind Box - Original</h4>
         <p>Price: $15</p>
         <a class="button-nav" href="#">Add to cart</a>
         </div>
 
-        <div class="product-item2">
+        <div class="product-grid-item2">
         <figure>
-          <a target="_blank" class="product-image2" href="https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series"><img src="img/BlindBox2.png" width="310" height="310" alt="Cinnamoroll2" id="blindbox2"></a>
+          <a target="_blank"  href="https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series"><img src="img/BlindBox2.png"  class="productimg" alt="Cinnamoroll2"> </a>
         </figure>
         <h4 class="product-title">Cinnamoroll Blind Box - Valentine</h4>
         <p class="product-price" >Price: $15</p>
-        <a class="add-to-cart-button" href="#">Add to cart</a>
+        <a class="button-nav" href="#">Add to cart</a>
         </div>
 
-        <div class="product-item3">
+        <div class="product-grid-item3">
         <figure>
-          <a target="_blank" class="product-image2" href="https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html"><img src="img/BlindBox3.png" width="290" height="290" alt="Cinnamoroll3" id="blindbox3"></a>
+          <a target="_blank" class="product-img" href="https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html"><img src="img/BlindBox3.png" class="productimg"  alt="Cinnamoroll3" ></a>
         </figure>
         <h4 class="product-title">Cinnamoroll Blind Box - Party</h4>
         <p class="product-price" >Price: $15</p>
-        <a class="add-to-cart-button" href="#">Add to cart</a>
+        <a class="button-nav" href="#">Add to cart</a>
         </div>
        </div>
       </section>
 
-
+      <!-- PAYMENT FORM -->
       <section class="element">
         <h3>Payment Form</h3>
 
@@ -298,44 +320,43 @@
           <h4>Payment</h4>
 
           <!-- CREDIT CARD PAYMENT -->
-
           <fieldset>
           <legend>Credit Card Payment</legend>
 
           <ul>
 
-          <li>
-            <div class="div_payment">
+          <li class="li-payment">
+            <div class="div-payment">
               <label>
-              <input class="input" type="text" placeholder="CARD NUMBER" required>
+                <input class="input-payment type" type="text" placeholder="CARD NUMBER" required>
               </label>
             </div>
 
-            <div class="div_payment">
+            <div class="div-payment">
               <label>
-              <input class="input" type="text" placeholder="CARD HOLDER" required>
+              <input class="input-payment" type="text" placeholder="CARD HOLDER" required>
               </label>
             </div>
           </li>
 
-          <li>
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="MM/YY" required>
-          </label>
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="MM/YY" required>
+              </label>
           </div>
 
-          <div class="div_payment">
-          <label>
-          <input class="input" id="save_yes_no" type="text" placeholder="CCV" required>
-          </label>
-          </div>
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" id="save_yes_no" type="text" placeholder="CCV" required>
+              </label>
+            </div>
           </li>
 
-          <li>
-          <label for="save_yes_no">Save Card Details</label>
-          <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
-          <input type="radio">
+          <li class="li-payment">
+            <label for="save_yes_no">Save Card Details</label>
+            <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
+            <input type="radio">
           </li>
 
           </ul>
@@ -348,42 +369,41 @@
 
           <ul>
 
-          <li>
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="FIRST NAME" required>
-          </label>
-          </div>
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="FIRST NAME" required>
+              </label>
+            </div>
 
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="LAST NAME" required>
-          </label>
-          </div>
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="LAST NAME" required>
+              </label>
+            </div>
           </li>
 
-          <li>
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="ADDRESS" required>
-          </label>
-          </div>
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="ADDRESS" required>
+              </label>
+            </div>
 
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="APT/SUITE/UNIT NUMBER" required>
-          </label>
-          </div>
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="APT/SUITE/UNIT NUMBER" required>
+              </label>
+            </div>
           </li>
 
-          <li>
-          <label>
-          <input class="input" type="text" placeholder="POSTAL CODE" required>
-          </label>
+          <li class="li-payment">
+            <label>
+            <input class="input-payment" type="text" placeholder="POSTAL CODE" required>
+            </label>
           </li>
 
           </ul>
-
           </fieldset>
 
           <!-- BILLING INFO -->
@@ -393,59 +413,51 @@
 
           <ul>
 
-          <li>
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="FIRST NAME" required>
-          </label>
-          </div>
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="FIRST NAME" required>
+              </label>
+            </div>
 
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="LAST NAME" required>
-          </label>
-          </div>
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="LAST NAME" required>
+              </label>
+            </div>
           </li>
 
-          <li>
+          <li class="li-payment">
 
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="ADDRESS" required>
-          </label>
-          </div>
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="ADDRESS" required>
+              </label>
+            </div>
 
-          <div class="div_payment">
-          <label>
-          <input class="input" type="text" placeholder="UNIT NUMBER" required>
-          </label>
-          </div>
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="UNIT NUMBER" required>
+              </label>
+            </div>
           </li>
 
-          <li>
-          <label>
-          <input class="input" type="text" placeholder="POSTAL CODE" required>
-          </label>
+          <li class="li-payment">
+            <label>
+            <input class="input-payment" type="text" placeholder="POSTAL CODE" required>
+            </label>
           </li>
 
-          <li>
-          <input class="button-nav" type="Submit" class="submit" value="SUBMIT">
+          <li class="li-payment">
+            <input class="button-nav" type="Submit" class="submit" value="SUBMIT">
           </li>
 
           </ul>
-
           </fieldset>
       </section>
 
+      <!-- CHECKOUT CART -->
       <section class="element" id="cart">
-        <h3>Checkout Cart</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.item-cart</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;nav a href="#combined_elements" Cinnamoroll Blind Box - Original /a /nav price: $15 &gt;</code>
-
         <h3>Checkout Cart</h3>
 
         <h4>CSS selector:</h4>
@@ -456,60 +468,59 @@
 
         <h3>Cart</h3>
         <h4>Total Items: 3</h4>
-        <div class="checkout_box">
+        <div class="checkout-box">
 
-        <div class="checkout_box_item_image">
+        <div class="checkout-box-item-image">
 
           <figure>
-          <img src="img/BlindBox1.png" class="img_checkout" alt="melody slippers">
+          <img src="img/BlindBox1.png" class="img-checkout" alt="melody slippers">
           </figure>
 
         </div>
 
-        <div class="checkout_box_item_text">
+        <div class="checkout-box-item-text">
           <h4> Cinnaroll Box Original</h4>
           <p>1x $15.00</p>
         </div>
 
         </div>
 
-        <div class="checkout_box2">
+        <div class="checkout-box2">
 
-          <div class="checkout_box2_item_image">
+          <div class="checkout-box2-item-image">
             <figure>
-            <img src="img/BlindBox2.png" class="img_checkout" alt="hello kitty slippers">
+            <img src="img/BlindBox2.png" class="img-checkout" alt="hello kitty slippers">
             </figure>
           </div>
 
-          <div class="checkout_box_item_text">
+          <div class="checkout-box-item-text">
             <h4> Cinnaroll Box Valentine</h4>
             <p>1x $15.00</p>
           </div>
 
         </div>
 
-        <div class="checkout_box3">
-          <div class="checkout_box3_item_image">
+        <div class="checkout-box3">
+          <div class="checkout-box3-item-image">
             <figure>
-            <img src="img/BlindBox3.png" class="img_checkout" alt="hello kitty slippers">
+            <img src="img/BlindBox3.png" class="img-checkout" alt="hello kitty slippers">
             </figure>
           </div>
 
-          <div class="checkout_box_item_text">
+          <div class="checkout-box3-item-text">
             <h4> Cinnaroll Box Party</h4>
             <p>1x $15.00</p>
           </div>
 
         </div>
 
-        <div class="checkout_box3_item_button">
+        <div class="checkout-box4-item">
           <h4>Total: $45.00</h4>
           <a class="button-nav" href="#">CHECKOUT</a>
         </div>
 
         </div>
     </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
 
     <!-- // BRANDING SECTION -->
     <section id="about">
@@ -549,6 +560,7 @@
       </section>
     </section>
 
+    <!-- CITATIONS -->
     <section id="citations">
       <h2>Citations</h2>
 

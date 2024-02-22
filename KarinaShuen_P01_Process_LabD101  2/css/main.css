@@ -1,11 +1,8 @@
-/*
-  STYLE GUIDE STYLING
-  Default styling for the style guide
-*/
+/* STYLE GUIDE STYLING */
 body {
   background-color: #fcf9f5;
   color: #422e18;
-  font-family: "WorkSans", Verdana, sans-serif;
+  font-family: "WorkSans", sans-serif;
   padding: 2rem;
 }
 
@@ -17,7 +14,7 @@ body {
 }
 
 h1 {
-  font-family: "Gelica", Verdana, sans-serif;
+  font-family: "Gelica", sans-serif;
   font-weight: 800;
   font-size: 64px;
   margin-top: 3rem;
@@ -25,18 +22,21 @@ h1 {
 }
 
 h2 {
+  font-family: "Gelica", sans-serif;
   font-weight: 700;
   font-size: 32px;
   margin-top: 2rem;
 }
 
 h3 {
+  font-family: "Gelica", sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin-top: 1rem;
 }
 
 h4 {
+  font-family: "Gelica", sans-serif;
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 1rem;
@@ -46,53 +46,131 @@ p {
   margin-top: 0;
 }
 
-
-/* nav bar source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav*/
+/* top navigation bar thats fixed to the top */
 .nav-div {
   margin: auto;
   overflow: hidden;
   overflow: hidden;
-  background-color: #f5ece1;
-  width: 100%;
+  min-width: 100%;
   text-align: center;
 }
 
-.div_payment {
-    display: inline-block;
+.main-nav-div {
+  background-color: #f5ece1;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+
+  /*entire window */
+  min-width: 100%;
 }
 
-.nav-div a {
+.main-nav-item{
   float: left;
   color: #422e18;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* nav bar for the pages/templates */
+/* nav bar source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav*/
+
+.nav2-div {
+  margin: auto;
+  overflow: hidden;
+  overflow: hidden;
+  width: 100%;
   text-align: center;
+  flex-direction: row;
+  /*entire window */
+  width: 100%;
+}
+
+.nav-item{
+  float: right;
+  color: #422e18;
+  background-color: #F5ECE1;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.nav-div a:hover {
+.nav-item1{
+  order: 2;
+  float: right;
+  color: #422e18;
+  background-color: #F5ECE1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-item2{
+  float: right;
+  color: #422e18;
+  background-color: #F5ECE1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-item3{
+  float: right;
+  color: #422e18;
+  background-color: #F5ECE1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-item4{
+  float: right;
+  color: #422e18;
+  background-color: #F5ECE1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-item5{
+  float: right;
+  color: #422e18;
+  background-color: #F5ECE1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-item:active, .nav-item:hover, .nav-item:focus, .main-nav-item:active, .main-nav-item:hover, .main-nav-item:focus {
+  color: #fcf9f5;;
   background-color: #f7c8ce;
-  color: #fcf9f5;
   text-decoration: underline;
 }
 
-.nav-link {
-  margin-left: 3%;
-  text-decoration: none;
-  font-weight: 600;
+/* place holder logo*/
+#nav-logo{
+  flex: 2;
+  order: 1;
+  float: left;
+  color: #422e18;
+  background-color: #F5ECE1;
   padding: 14px 16px;
-  color: #f7c8ce;
-  padding: 2% 0%;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+/* payment*/
+.div-payment {
+    display: inline-block;
 }
 
 .text-link:hover, .text-link:focus{
   color: #f5ece1;
 }
 
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
 
 code {
   background-color: #f5ece1;
@@ -108,24 +186,47 @@ img:hover {
   transition: .5s ease;
 }
 
-/* source: https://www.w3schools.com/cssref/sel_focus.php */
-input[type=text] {
-  width: 50%;
+.input-fill{
+ width: 40%;
   margin-bottom: 20px;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #422e18;
   border-radius: 10px;
   background-color: #fcf9f5;
 }
-input[type=text]:hover {
-  background-color: #f5ece1;
+
+.input-fill:hover{
+   width: 40%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: #F5ECE1;
 }
 
-.img_checkout {
+.input-payment{
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: #fcf9f5;
+}
+
+.input-payment:hover{
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: #F5ECE1;
+}
+
+.img-checkout {
   width: 200px;
   height: 200px;
 
-li{
+}
+
+.li-payment{
   list-style: none;
 }
 
@@ -138,53 +239,12 @@ label {
   display: block;
 }
 
-#blindbox1 {
-  margin-left: 0px;
-  margin-bottom: 20px;
-}
 
-#blindbox2 {
-  margin-left: -35px;
-  margin-bottom: -10px;
-}
-
-#blindbox3 {
-  margin-left: -30px;
-  margin-bottom: -15px;
-}
-
-.product-grid {
-  display:flex;
-  flex-wrap: wrap;
-  margin-left: 50px;
-
-}
-
-.product-item1 {
-  width: 300px;
-  margin: 20px 45px;
+.productimg{
+  width: 200px;
+  height: 200px;
   text-align: left;
   transition: border-color 0.3s;
-}
-
-.product-item2 {
-  width: 300px;
-  margin: 20px 45px;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-align: left;
-  transition: border-color 0.3s;
-  margin-top: -50px;
-}
-
-.product-item3 {
-  width: 280px;
-  margin: 20px 45px;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-align: left;
-  transition: border-color 0.3s;
-  margin-top: -20px;
 }
 
 .add-to-cart-button {
