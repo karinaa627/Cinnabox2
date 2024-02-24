@@ -303,7 +303,7 @@
        </div>
       </section>
 
-      <!-- PAYMENT FORM -->
+        <!-- PAYMENT FORM -->
       <section class="element">
         <h3>Payment Form</h3>
 
@@ -315,12 +315,13 @@
 
           <h4>Payment</h4>
 
+          <form>
+          <div class="checkout-form">
           <!-- CREDIT CARD PAYMENT -->
           <fieldset>
           <legend>Credit Card Payment</legend>
 
           <ul>
-
           <li class="li-payment">
             <div class="div-payment">
               <label>
@@ -352,15 +353,17 @@
           <li class="li-payment">
             <label for="save_yes_no">Save Card Details</label>
             <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
-            <input type="radio">
+            <input type="checkbox">
           </li>
 
           </ul>
           </fieldset>
+          </div>
+          </form>
 
+          <div class="checkout-form">
           <!-- SHIPPING INFO -->
           <fieldset>
-
           <legend>Shipping Information</legend>
 
           <ul>
@@ -401,6 +404,63 @@
 
           </ul>
           </fieldset>
+
+          </div>
+
+          <div class="checkout-form">
+          <!-- BILLING INFO -->
+          <fieldset>
+          <legend>Billing Information</legend>
+
+          <ul>
+            <li class="li-payment">
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="FIRST NAME" required>
+                </label>
+              </div>
+
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="LAST NAME" required>
+                </label>
+              </div>
+            </li>
+
+            <li class="li-payment">
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="ADDRESS" required>
+                </label>
+              </div>
+
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="APT/SUITE/UNIT NUMBER" required>
+                </label>
+              </div>
+            </li>
+
+            <li class="li-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="POSTAL CODE" required>
+              </label>
+            </li>
+
+            <label for="save_yes_no">Same as Shipping</label>
+            <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
+            <input type="checkbox">
+
+            <li class="li-payment">
+              <input class="button-nav" type="Submit" class="submit" value="SUBMIT">
+            </li>
+
+            </ul>
+            </fieldset>
+
+            </div>
+
+      </section>
 
           <!-- BILLING INFO -->
           <fieldset>
