@@ -57,7 +57,9 @@ p {
 
 .main-nav-div {
   background-color: #f5ece1;
+    /*
 	position: fixed;
+    */
 	top: 0;
 	right: 0;
 	left: 0;
