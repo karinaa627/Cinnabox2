@@ -236,9 +236,9 @@ img:hover {
 }
 
 .img-checkout {
-  width: 200px;
-  height: 200px;
-
+  width: 150px;
+  height: 150px;
+  align-self: left;
 }
 
 .li-payment{
