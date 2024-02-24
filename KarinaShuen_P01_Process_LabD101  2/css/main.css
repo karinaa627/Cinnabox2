@@ -47,14 +47,6 @@ p {
   margin-top: 0;
 }
 
-/* top navigation bar thats fixed to the top */
-.nav-div {
-  margin: auto;
-  overflow: hidden;
-  overflow: hidden;
-  min-width: 100%;
-  text-align: center;
-}
 
 .main-nav-div {
   background-color: #f5ece1;
@@ -93,6 +85,27 @@ p {
   background-color: #F5ECE1;
   padding-left:5rem;
   padding-right:5rem;
+}
+
+/* locked version*/
+.nav3-div{
+  margin: auto;
+  overflow: hidden;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  flex-direction: row;
+  /*entire window */
+  width: 100%;
+  background-color: #F5ECE1;
+  padding-left:5rem;
+  padding-right:5rem;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .nav-item{
