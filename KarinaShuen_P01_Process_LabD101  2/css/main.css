@@ -227,6 +227,17 @@ img:hover {
 
 .li-payment{
   list-style: none;
+  text-align: left;
+}
+
+/* payment*/
+.div-payment {
+    display: inline-block;
+}
+
+.checkout-form{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 fieldset{
