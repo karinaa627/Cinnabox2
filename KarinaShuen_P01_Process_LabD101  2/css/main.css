@@ -158,6 +158,14 @@ p {
 }
 
 
+.footer-link{
+  color: #FCF9F5;
+  text-decoration: none;
+}
+.footer-link:hover, .footer-link:focus, .footer-link:active{
+  color: #FCF9F5;
+}
+
 code {
   background-color: #f5ece1;
   padding: 1rem;
