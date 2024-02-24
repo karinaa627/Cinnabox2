@@ -132,6 +132,22 @@ p {
   font-size: 17px;
 }
 
+.nav-item4{
+  float: right;
+  color: #422e18;
+  background-color: #F5ECE1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-item:active, .nav-item:hover, .nav-item:focus, .main-nav-item:active, .main-nav-item:hover, .main-nav-item:focus, .nav-item1:active, .nav-item1:hover, .nav-item1:focus, .nav-item2:active, .nav-item2:hover, .nav-item2:focus, .nav-item3:active, .nav-item3:hover, .nav-item3:focus
+.nav-item4:active, .nav-item4:hover, .nav-item4:focus {
+  color: #fcf9f5;;
+  background-color: #f7c8ce;
+  text-decoration: underline;
+}
+
 .nav-item:active, .nav-item:hover, .nav-item:focus, .main-nav-item:active, .main-nav-item:hover, .main-nav-item:focus, .nav-item1:active, .nav-item1:hover, .nav-item1:focus, .nav-item2:active, .nav-item2:hover, .nav-item2:focus, .nav-item3:active, .nav-item3:hover, .nav-item3:focus {
   color: #fcf9f5;;
   background-color: #f7c8ce;
