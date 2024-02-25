@@ -50,9 +50,6 @@ p {
 
 .main-nav-div {
   background-color: #f5ece1;
-    /*
-	position: fixed;
-    */
 	top: 0;
 	right: 0;
 	left: 0;
@@ -176,7 +173,7 @@ p {
   background-color: #F5ECE1;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1rem;
   font-family: "Gelica", sans-serif;
   font-size: 1rem;
   text-stroke: 4px white;
@@ -187,6 +184,9 @@ p {
     display: inline-block;
 }
 
+.payment-size{
+  width: 60%:
+}
 .text-link:hover, .text-link:focus{
   color: #f5ece1;
 }
@@ -252,6 +252,7 @@ img:hover {
   width: 150px;
   height: 150px;
   align-self: left;
+
 }
 
 .li-payment{
@@ -419,6 +420,12 @@ hr{
   padding:5rem;
 }
 
+.checkout-background{
+  width: 100%;
+  display: inline-block;
+  padding:5rem;
+}
+
 .background-element{
   width: 100%;
   display: inline-block;
@@ -468,11 +475,3 @@ hr{
   border: 6px solid #F5ECE1;
   border-radius: 50px;
 }
-
-
-
-
-
-/*
-  COMBINED ELEMENTS -------------------
-*/

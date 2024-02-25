@@ -299,7 +299,6 @@ body {
 }
 
 
-
 /* at 40em window browser size make product listing image in second order */
 @media (min-width: 40em) {
 	.product-listing-item-image {
