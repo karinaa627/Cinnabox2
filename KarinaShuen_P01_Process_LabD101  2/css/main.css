@@ -281,12 +281,11 @@ label {
 
 
 .productimg{
-  width: 600px;
-  height: 600px;
+  width: 200px;
+  height: 200px;
   text-align: left;
   transition: border-color 0.3s;
 }
-
 .productdescript-img{
   width: 200px;
   height: 200px;
